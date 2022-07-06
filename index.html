@@ -2,14 +2,16 @@
 <html>
 <!-- This is the head of the html where we add external resources and metadata-->
 <head>
-
     <!-- This is our grid stylesheet-->
 
 
-    <!-- This is our google fonts -->
+    <!-- This is our fontawsome icos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- Gridlex for our flexbox grids -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
 
-    <!-- This is our CSS stylesheet, this always goes last-->
+    <!-- This is our custom stylesheet, this always goes last-->
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -17,7 +19,88 @@
 <!--  This is the body, this is where all of your page content goes.  -->
 <body>
     
-    <h1> Hello World </h1>
+    <!----------------------- Header Banner ----------------------->
+<header class="padding grid">
+    <div class="col-12-middle">
+        <h3> sleep like a baby </h3>
+        <h1> the ultimate mattress solution </h1>
+    </div>
+</header>
+
+    <!------------------------- Gallery section ------------------------->
+    <section class="grid">
+        <div class="padding col-6">
+            <h2> built to last a lifetime </h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora corrupti eius obcaecati iure deleniti aspernatur voluptas possimus error! Repellat maxime non deserunt delectus dicta nesciunt aliquam consequatur ratione voluptatibus illo!</p>
+        </div>
+        <div class="bg-image col-6">
+            <!-- Background image - bed -->
+        </div>
+        <div class="bg-image col-6">
+            <!-- Background image - sleeping -->
+        </div>
+        <div class="padding col-6">
+            <h2> so soft you'll melt </h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora corrupti eius obcaecati iure deleniti aspernatur voluptas possimus error! Repellat maxime non deserunt delectus dicta nesciunt aliquam consequatur ratione voluptatibus illo!</p>
+        </div>
+    </section>
+
+    <!------------------------- Features icon grid ------------------------->
+    <section class="padding grid bg-dark">
+        <div class="p-sm col-12"> 
+            <h2> features you will love</h2>
+        </div>
+        <div class="p-sm col-3"> 
+            <i class="fa-solid fa-cloud"></i>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi odit nostrum officiis esse? Vero incidunt sit debitis qui aperiam aliquid dignissimos, illo quo distinctio eius natus explicabo, voluptate, et eaque!</p>
+        </div>
+        <div class="p-sm col-3"> 
+            <i class="fa-solid fa-cloud"></i>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi odit nostrum officiis esse? Vero incidunt sit debitis qui aperiam aliquid dignissimos, illo quo distinctio eius natus explicabo, voluptate, et eaque!</p>
+        </div>
+        <div class="p-sm col-3"> 
+            <i class="fa-solid fa-cloud"></i> 
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi odit nostrum officiis esse? Vero incidunt sit debitis qui aperiam aliquid dignissimos, illo quo distinctio eius natus explicabo, voluptate, et eaque!</p>
+        </div>
+        <div class="p-sm col-3"> 
+            <i class="fa-solid fa-cloud"></i> 
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi odit nostrum officiis esse? Vero incidunt sit debitis qui aperiam aliquid dignissimos, illo quo distinctio eius natus explicabo, voluptate, et eaque!</p>
+        </div>
+    </section>
+
+    <!------------------------- Image banner ------------------------->
+    <section class="padding">
+        <h3>
+            never underestimate the power of a good night sleep </h3>
+    </section>
+
+    <!------------------------- Image banner ------------------------->  
+    <section class="padding grid">
+        <div class="col-1"> 
+            <span>"</span>
+        </div>
+        <div class="col-10"> 
+            <p> i've never experienced sleep like this. Omg i really love this mettress I want to buy one for every member of my family</p>
+            <p> - A very happy costumer</p>
+        </div>
+        <div class="col-1"> 
+            <span>"</span>
+        </div>
+    </section>
+
+     <!------------------------- Footer  ------------------------->  
+     <footer class="padding grid-spaceBetween bg-dark">
+        <div class="col-4"> 
+            <h2> Lets connect </h2>
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, iusto excepturi quisquam necessitatibus suscipit maiores asperiores vel repellendus? Recusandae eius deleniti ad quidem odit aspernatur qui ut aliquam ex odio.</p>
+        </div>
+        <div class="col-6"> 
+            <p> Call: 04555 5555 </p>
+            <p> Email: hello@thesleepco.com</p>
+            <p> Store: 55 Main St, Chicago</p>
+            <p> Instagram: @thrsleepco</p>
+        </div>
+     </footer>
 
 </body>
 </html>
